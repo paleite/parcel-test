@@ -3,6 +3,13 @@
     ["env"]
   ],
   "plugins": [
+    ["module-resolver", {
+      "root": ["./src"],
+      "alias": {
+        "💅": "./src/scss",
+        "@": "./src"
+      }
+    }],
     ["transform-runtime"]
   ]
 }

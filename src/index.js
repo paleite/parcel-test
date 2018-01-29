@@ -1,3 +1,5 @@
+import '💅/index.scss'
+
 function resolveAfter2Seconds () {
   return new Promise(resolve => {
     setTimeout(() => {
@@ -8,8 +10,7 @@ function resolveAfter2Seconds () {
 
 async function asyncCall () {
   console.log('calling')
-  var result = await resolveAfter2Seconds()
-  console.log(result)
+  console.log(await resolveAfter2Seconds())
 }
 
 asyncCall()
