@@ -10,7 +10,8 @@
     "build": "npx parcel build src/index.pug",
     "prettier": "npm run prettier:js; npm run prettier:scss",
     "prettier:js": "npx prettier-eslint --write src/{,**/}*.js",
-    "prettier:scss": "npx prettier --write src/{,**/}*.scss"
+    "prettier:scss": "npx prettier --write src/{,**/}*.scss",
+    "commit": "git-cz"
   },
   "dependencies": {
     "autoprefixer": "^7.2.5",
